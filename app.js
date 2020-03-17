@@ -16,5 +16,8 @@ app.post('/party', function(req, res) {
         .catch((err) => console.error(err));
     console.log(req.body);
 });
+app.get('/party/:id', function(req, res) {
+    res.render('party', { title: 'Événement' });
+});
 
 app.listen(process.env.PORT, () => console.log(`Front app listening on port ${process.env.PORT}!`));
