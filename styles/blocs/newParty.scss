@@ -1,0 +1,51 @@
+.newParty{
+  text-align: center;
+  button{
+    background-color: #fff;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid #8e44ad;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+    &:hover{
+      background-color: #8e44ad;
+      color: #fff;
+    }
+  }
+}
+
+.newParty__fields {
+  margin: 0 auto 1em auto;
+
+  @include medium {
+    display: grid;
+    grid-template-columns: 175px 1fr;
+    grid-gap: 5px;
+    max-width: 500px;
+  }
+
+  label {
+    margin-bottom: 5px;
+    @include medium {
+      place-self: center end;
+    }
+    @media(min-width: 430px){
+      margin-bottom: 0;
+    }
+  }
+  input{
+    margin-bottom: 15px;
+    border: 2px solid #8e44ad;
+    padding: 5px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    &:focus{
+      outline: none;
+    }
+    @media(min-width: 430px){
+      margin-bottom: 0;
+    }
+  }
+}
