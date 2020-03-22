@@ -1,12 +1,12 @@
 @import 'vendors/reset';
 @import 'config/medias';
 @import 'blocs/newParty';
+@import 'blocs/offline';
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap');
 $font: 'Montserrat';
 
 body{
-  padding: 30px;
   font-family: $font;
 }
 
