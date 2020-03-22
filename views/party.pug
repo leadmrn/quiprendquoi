@@ -22,4 +22,4 @@ form(method="post" action=`/party/${party._id}/items`)
 
 
 label(for="url") Partagez l'événement
-input(id="url" value=`${url}` data-clipboard=`${url}`)
+input(id="url" value=`${url}` data-clipboard=`${url}` data-share-url=`${url}` data-share-title=`${party.name}` data-share-text=`${party.author} vous invite à rejoindre l'événement ${party.name}`)
