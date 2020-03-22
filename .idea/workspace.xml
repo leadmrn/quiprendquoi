@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2fa200-e43a-42dd-b1ef-4592f95a77b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/clipboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/party.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/party.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +28,9 @@
           <entry key="css" value="1" />
           <entry key="env" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="4" />
+          <entry key="js" value="5" />
           <entry key="json" value="2" />
-          <entry key="pug" value="3" />
+          <entry key="pug" value="4" />
           <entry key="scss" value="4" />
         </counts>
       </usages-collector>
@@ -37,8 +38,8 @@
         <counts>
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="4" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JavaScript" value="5" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="4" />
         </counts>
       </usages-collector>
@@ -46,17 +47,17 @@
         <counts>
           <entry key="env" value="12" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="233" />
+          <entry key="js" value="242" />
           <entry key="json" value="28" />
-          <entry key="pug" value="503" />
+          <entry key="pug" value="506" />
           <entry key="scss" value="585" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="28" />
-          <entry key="JavaScript" value="233" />
-          <entry key="PLAIN_TEXT" value="516" />
+          <entry key="JavaScript" value="242" />
+          <entry key="PLAIN_TEXT" value="519" />
           <entry key="SCSS" value="585" />
         </counts>
       </usages-collector>
@@ -64,15 +65,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/party.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,20 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/styles/blocs/newParty.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/party.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test.js">
+        <entry file="file://$PROJECT_DIR$/styles/blocs/newParty.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="578">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,21 +114,21 @@
         <entry file="file://$PROJECT_DIR$/partials/header.pug">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test2.js">
+        <entry file="file://$PROJECT_DIR$/scripts/clipboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="30" selection-start-column="30" selection-end-column="30" />
+            <state relative-caret-position="119">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -159,7 +151,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/views/party.pug" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/styles/vendors/reset.scss" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -168,9 +159,11 @@
         <option value="$PROJECT_DIR$/styles/style.scss" />
         <option value="$PROJECT_DIR$/styles/blocs/newParty.scss" />
         <option value="$PROJECT_DIR$/scripts/test.js" />
-        <option value="$PROJECT_DIR$/partials/header.pug" />
         <option value="$PROJECT_DIR$/scripts/test2.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/partials/header.pug" />
+        <option value="$PROJECT_DIR$/scripts/clipboard.js" />
+        <option value="$PROJECT_DIR$/views/party.pug" />
       </list>
     </option>
   </component>
@@ -306,12 +299,12 @@
       <updated>1584360021201</updated>
       <workItem from="1584360024492" duration="2443000" />
       <workItem from="1584443011387" duration="3190000" />
-      <workItem from="1584900584407" duration="4467000" />
+      <workItem from="1584900584407" duration="5368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10100000" />
+    <option name="totallyTimeSpent" value="11001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -406,27 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/party.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/config/medias.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -448,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/partials/header.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -469,6 +434,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="127" selection-start-line="8" selection-start-column="127" selection-end-line="8" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/header.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/clipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/config/medias.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/party.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
     </entry>
