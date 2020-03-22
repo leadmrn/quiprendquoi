@@ -1,4 +1,4 @@
-.newParty{
+.newParty, .partyEvenement{
   text-align: center;
   button{
     background-color: #fff;
@@ -15,7 +15,7 @@
   }
 }
 
-.newParty__fields {
+.newParty__fields, .partyEvenement__fields {
   margin: 0 auto 1em auto;
 
   @include medium {

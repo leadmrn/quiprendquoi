@@ -11,11 +11,10 @@ ul
       button(type="submit") Supprimer
 
 
-form(method="post" action=`/party/${party._id}/items`)
-  div
+form(method="post" action=`/party/${party._id}/items`).partyEvenement
+  div.partyEvenement__fields
     label(for="name") Ce que je ramène :
     input(name="name" id="name" required minlength="3" placeholder="Vodka")
-  div
     label(for="author" required) Nom :
     input(name="author" id="author" required minlength="3" placeholder="Lucas")
   button(type="submit") Ajouter
