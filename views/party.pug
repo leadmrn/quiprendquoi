@@ -5,3 +5,20 @@ h3 Créé par #{party.author}
 
 label(for="url") Partagez l'événement
 input(id="url" value=`${url}`)
+
+h2 Liste:
+ul
+  each item in party.items
+    li= item.name
+    form(method="post" action=`/party/${party._id}/items/${item._id}`)
+      button(type="submit") Supprimer
+
+
+form(method="post" action=`/party/${party._id}/items`)
+  div
+    label(for="name") Ce que je ramène :
+    input(name="name" id="name" required minlength="3" placeholder="Vodka")
+  div
+    label(for="author" required) Nom :
+    input(name="author" id="author" required minlength="3" placeholder="Lucas")
+  button(type="submit") Ajouter
