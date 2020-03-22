@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f2fa200-e43a-42dd-b1ef-4592f95a77b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/blocs/newParty.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/blocs/newParty.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/party.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/party.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/partials/header.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +46,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="347" />
           <entry key="json" value="33" />
-          <entry key="pug" value="549" />
+          <entry key="pug" value="553" />
           <entry key="scss" value="673" />
         </counts>
       </usages-collector>
@@ -59,7 +54,7 @@
         <counts>
           <entry key="JSON" value="33" />
           <entry key="JavaScript" value="347" />
-          <entry key="PLAIN_TEXT" value="562" />
+          <entry key="PLAIN_TEXT" value="566" />
           <entry key="SCSS" value="673" />
         </counts>
       </usages-collector>
@@ -80,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/sw.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -106,8 +101,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partials/header.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="12" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -312,12 +307,12 @@
       <updated>1584360021201</updated>
       <workItem from="1584360024492" duration="2443000" />
       <workItem from="1584443011387" duration="3190000" />
-      <workItem from="1584900584407" duration="7183000" />
+      <workItem from="1584900584407" duration="7451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12816000" />
+    <option name="totallyTimeSpent" value="13084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -478,13 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sw.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -492,10 +480,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/header.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="12" selection-end-column="43" />
         </state>
       </provider>
     </entry>
